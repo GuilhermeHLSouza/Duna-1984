@@ -22,7 +22,7 @@ public class Personagem : MonoBehaviour
 
     void Movimento()
     {
-        if(Input.GetKey(KeyCode.A) && transform.position.z < 184.10)
+        if(Input.GetKey(KeyCode.A) && transform.position.z < 186.95)
         {
             mov = new Vector3 (0f, 0f, 10f * Time.deltaTime);
             transform.Translate(mov);

@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minhoca.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/FimJogo.unity
+    guid: 8ef77350e4a88fa4ca6ce8e2c78b10ed
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

@@ -17,7 +17,7 @@ public class Pedra : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        mov = new Vector3(-0.2f, 0, 0);
+        mov = new Vector3(-0.3f, 0, 0);
         Movimento(mov);
     }
 
@@ -30,7 +30,7 @@ public class Pedra : MonoBehaviour
     {
         if (collision.gameObject.tag == "Jogador")
         {
-            SceneManager.LoadSceneAsync("Menu");
+            SceneManager.LoadSceneAsync("FimJogo");
         }
         if (collision.gameObject.tag == "Final")
         {

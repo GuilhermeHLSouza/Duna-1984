@@ -434,8 +434,8 @@ MonoBehaviour:
   - {fileID: 7809331290410404023, guid: 0dd050efb10a21c4f8d1c3ab7e33f70b, type: 3}
   spawnTime: 1
   spawnDelay: 2
-  velocidade: 5
-  velocidadeZigZag: 3
+  velocidade: 10
+  velocidadeZigZag: 10
   limiteSuperior: 187.98
   limiteInferior: 156.98
 --- !u!1 &1016413774
@@ -477,8 +477,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.32213888, y: 1, z: 1}
+  m_Center: {x: 0.33893478, y: 0, z: 0}
 --- !u!23 &1016413776
 MeshRenderer:
   m_ObjectHideFlags: 0

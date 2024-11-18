@@ -9,7 +9,7 @@ public class Menu : MonoBehaviour
 
    public void Jogar()
     {
-        SceneManager.LoadSceneAsync("Minhoca");
+        SceneManager.LoadSceneAsync(nomeCena);
     }
     
     public void Sair()
