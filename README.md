@@ -174,6 +174,23 @@ imagem
 </table>
 <br>
 
+### Geração das pedras
+<br>
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+ <table>
+<thead>
+  <th>
+	  
+imagem
+
+</th>
+</thead>
+</table>
+<br>
+
+
  ### Game over
 <br>
 
