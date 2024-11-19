@@ -126,6 +126,54 @@ imagem
 </table>
 <br>
 
+### Botões menu
+<br>
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+ <table>
+<thead>
+  <th>
+	  
+imagem
+
+</th>
+</thead>
+</table>
+<br>
+
+### Câmera
+<br>
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+ <table>
+<thead>
+  <th>
+	  
+imagem
+
+</th>
+</thead>
+</table>
+<br>
+
+### Pedras
+<br>
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+ <table>
+<thead>
+  <th>
+	  
+imagem
+
+</th>
+</thead>
+</table>
+<br>
+
  ### Game over
 <br>
 
@@ -142,7 +190,7 @@ imagem
 </table>
 <br>
 
- ### Movimentação
+ ### Movimentação verme de areia
 <br>
 
 aaaaaaaaaaaaaaaaaaaaaaaaaaa
