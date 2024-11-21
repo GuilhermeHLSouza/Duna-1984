@@ -84,7 +84,11 @@
     imagem  
   </th>  
 </thead>  
-</table>  
+</table>
+
+## Músicas do jogo  
+
+<p>As músicas utilizadas no jogo foram cuidadosamente escolhidas para refletir a atmosfera de *Duna* (1984) e proporcionar uma experiência imersiva. No menu principal, a trilha sonora é composta por "Dune (Desert Theme)" e "Main Title", ambas da banda Toto, responsáveis pela trilha sonora original do filme. Essas músicas capturam a grandiosidade e o mistério do universo de Arrakis, conectando o jogador diretamente à estética sonora do filme.</p>  
 
 ## Códigos do jogo  
 
