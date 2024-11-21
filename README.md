@@ -146,7 +146,7 @@ Configuração do modelo 3D das pedras usadas como obstáculos no jogo.
 
 ### Geração das Pedras  
 
-Código que gera as pedras aleatoriamente no caminho do verme, aumentando a dificuldade conforme o tempo passa.  
+Código que gera as pedras aleatoriamente no caminho do verme.  
 <table>  
 <thead>  
   <th>  
