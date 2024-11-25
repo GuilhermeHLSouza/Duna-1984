@@ -10,7 +10,7 @@ public class Camera : MonoBehaviour
     void Start()
     {
         //colocando a camera na posição do personagem/minhoca
-        posicao.z = personagem.transform.position.z;
+        posicao.z = personagem.transform.position.z -2.5f ;
         transform.position = posicao;
     }
 
@@ -21,7 +21,7 @@ public class Camera : MonoBehaviour
         if(personagem.transform.position.z != transform.position.z) 
         {
             //movendo a minhoca para a posição do personagem
-            posicao = new Vector3(transform.position.x, transform.position.y, personagem.transform.position.z);
+            posicao = new Vector3(transform.position.x, transform.position.y, personagem.transform.position.z -2.50f);
             transform.position = posicao ;
         }
        

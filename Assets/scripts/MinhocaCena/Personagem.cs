@@ -28,9 +28,9 @@ public class Personagem : MonoBehaviour
     void Movimento()
     {
         //verificando se a tecla A foi clicada e se não passou do limite do mapa 
-        if(Input.GetKey(KeyCode.A) && transform.position.z < 186.95)
+        if(Input.GetKey(KeyCode.A) && transform.position.z < 186.15)
         {
-            mov = new Vector3 (0f, 0f, 10f * Time.deltaTime);
+            mov = new Vector3 (10f * Time.deltaTime, 0f, 0f);
             transform.Translate(mov);
             anim.SetBool("Esquerda", true);
         }
@@ -42,9 +42,9 @@ public class Personagem : MonoBehaviour
         }
          
         //verificando se a tecla D foi clicada e se não passou do limite do mapa 
-        if (Input.GetKey(KeyCode.D) && transform.position.z > 157.03)
+        if (Input.GetKey(KeyCode.D) && transform.position.z > 162.68)
         {
-            mov = new Vector3(0f, 0f, -10f * Time.deltaTime);
+            mov = new Vector3(-10f * Time.deltaTime, 0f, 0);
             transform.Translate(mov);
             anim.SetBool("Direita", true);
         }
