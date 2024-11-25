@@ -17,6 +17,8 @@ public class Tempo : MonoBehaviour
         tempo -= Time.deltaTime;
         if (tempo < 0)
         {
+            SceneManager.LoadSceneAsync("Menu");
+            tempo = 0;
         }
         minutos = Mathf.FloorToInt(tempo / 60);
         segundos = Mathf.FloorToInt(tempo % 60);
