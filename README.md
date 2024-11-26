@@ -12,7 +12,7 @@
 
 ## Explicação da cena original do filme
 <p>
-  Na cena original de Duna (1984), Paul Atreides escala um gigantesco verme de areia usando um gancho, demonstrando sua habilidade e liderança. O momento simboliza sua conexão com os Fremen e marca sua evolução como líder ao usar o verme para atravessar o deserto de Arrakis. </p>
+  Na cena original de Duna (1984), Paul Atreides utiliza um gancho para escalar o imenso verme de areia, uma criatura colossal que domina o deserto de Arrakis. A sequência destaca a determinação e o controle de Paul ao conquistar o verme, demonstrando seu crescimento como líder dos Fremen. O momento é crucial para sua jornada, simbolizando a conexão dele com o deserto e sua aceitação do destino como o Kwisatz Haderach (aquele que pode ver as memórias dos ancestrais), enquanto ele utiliza o verme como transporte através das vastas dunas de areia. </p>
 
 ## Explicação do jogo  
 
