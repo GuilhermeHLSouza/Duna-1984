@@ -21,10 +21,11 @@
 
 <p>Paul Atreides é o protagonista da história. Durante o jogo, ele monta o verme de areia em um momento crucial de sua jornada, representando sua conexão com o deserto de Arrakis e sua transformação como líder. Sua aparência segue o traje típico do deserto (traje de destilação), destacando tons escuros e elementos funcionais.</p>  
 <table>  
-<thead>  
-  <th>  
-    imagem  
-  </th>  
+<thead>
+  <th>
+    
+  ![Captura de tela 2024-11-26 101143](https://github.com/user-attachments/assets/870b8ffa-c17f-499b-973e-daf9b7cd1b61)
+  </th>
 </thead>  
 </table>  
 
@@ -33,8 +34,9 @@
 <p>O verme de areia é uma criatura icônica de Arrakis. Ele serve como o principal elemento visual e mecânico do jogo, movendo-se pelo deserto enquanto o jogador desvia de obstáculos no caminho. Sua aparência é fiel ao design do filme, com texturas que remetem ao ambiente desértico.</p>  
 <table>  
 <thead>  
-  <th>  
-    imagem  
+  <th> 
+    
+![174ad9ac-3e52-4c92-b65f-0a19f7bf69e0](https://github.com/user-attachments/assets/b6168abf-0db9-45df-aae1-7f4c619d765b)
   </th>  
 </thead>  
 </table>  
@@ -44,8 +46,9 @@
 <p>Os obstáculos consistem em pedras que aparecem aleatoriamente no caminho do verme de areia. Esses elementos foram projetados para criar um desafio crescente ao jogador, exigindo atenção e reflexos rápidos.</p>  
 <table>  
 <thead>  
-  <th>  
-    imagem  
+  <th>
+    
+  ![f0faea5e-dd80-4448-b477-18c3cc459218](https://github.com/user-attachments/assets/e036740b-1020-482e-8b5c-4b97780be6b8)
   </th>  
 </thead>  
 </table>  
@@ -59,20 +62,12 @@
  • Os botões mudam de cor ao passar o mouse por cima, proporcionando uma experiência dinâmica.  
 <table>  
 <thead>  
-  <th>  
-    imagem  
+  <th> 
+    
+  ![c2d48283-5238-4cb2-b8a0-f81b7ccb063b](https://github.com/user-attachments/assets/474f0874-afea-4ca1-b0f6-26e11dee176d)
   </th>  
 </thead>  
-</table>  
-<br>  
-<table>  
-<thead>  
-  <th>  
-    imagem  
-  </th>  
-</thead>  
-</table>  
-<br>  
+</table>   
 
 ### Game Over  
 
@@ -81,7 +76,8 @@
 <table>  
 <thead>  
   <th>  
-    imagem  
+    
+   ![af347de9-af25-49a9-9591-9d421174147b](https://github.com/user-attachments/assets/110c557d-bfb3-485c-8bbe-b8ac8a8fa3d3)
   </th>  
 </thead>  
 </table>
@@ -168,6 +164,18 @@ Scripts que exibem a tela de game over e permitem ao jogador reiniciar o jogo.
 </table>  
 <br>  
 
+### Timer  
+
+Scripts que criam um cronômetro e verifica se chegou no final gerando a condição de vitória.  
+<table>  
+<thead>  
+  <th>  
+    imagem  
+  </th>  
+</thead>  
+</table>  
+<br>  
+
 ## Movimentação do verme de areia  
 
 Código que controla o movimento contínuo do verme e a detecção de colisões com obstáculos.  
@@ -182,9 +190,22 @@ Código que controla o movimento contínuo do verme e a detecção de colisões 
 
 ## Vídeo  
 
-video  
+Apresentação básica das mecânicas do jogo  
+
+https://github.com/user-attachments/assets/478b5a62-651c-4a37-91cd-7cc0da90ff35
+
+
 <br>  
 
 > ### Referências  
 
-https://aaaaaaaaaaaaaaaaaaaaa  
+ [Proganista](https://sketchfab.com/3d-models/fremen-of-dune-fb4be07a655a47f890f1ff1d42f7f57e)
+ 
+ [Deserto](https://sketchfab.com/3d-models/dune-arrakis-wip-58bd8be249944f1b892a52eb52e06024)
+ 
+ [Pedras usadas de obstáculo](https://assetstore.unity.com/packages/3d/environments/landscapes/stylized-low-poly-rocks-271334)
+
+ [Música do meu principal](https://youtu.be/oauF0jXcAq8?si=goZx5islc5gG6Zvs)
+
+ [Música do jogo](https://youtu.be/yE4pPzrkgsM?si=WzNQ7ztFg0gi-7A5)
+ 
