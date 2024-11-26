@@ -19,6 +19,21 @@
 <p>O jogo se inicia com o jogador controlando Paul em cima do verme, desviando de pedras que aparecem no caminho. O jogador vence ao sobreviver por 2 minutos sem colidir com nenhuma pedra, retornando ao menu inicial ao fim do desafio. Caso o verme colida com uma pedra, uma tela de game over é exibida. O jogo possui menus interativos, músicas do filme e uma estética fiel ao universo visual de Duna. </p>  
 <br>  
 
+## Cenário e Ambientação
+<p>O cenário do jogo foi projetado para capturar a atmosfera do deserto de Arrakis, utilizando um campo de visão (Field of View - FOV) com tonalidade amarelada. Essa escolha visual reforça a sensação de calor intenso e vastidão do deserto, transportando o jogador para o ambiente de Duna.
+
+Para construir o cenário, utilizamos um prefab de terreno desértico, que foi ajustado e integrado ao jogo. Esse prefab inclui textura de areia realista e elementos visuais que remetem ao filme, como a imensidão sem fim do horizonte e a movimentação sutil da areia com o vento. Essa abordagem permitiu criar um ambiente imersivo, conectando visualmente o jogo à obra cinematográfica.</p>
+<br>
+
+
+## Paleta de Cores  
+
+<p>A paleta de cores do jogo foi escolhida para refletir a estética do filme Duna (1984) e reforçar a ambientação do deserto de Arrakis. Tons terrosos, como areia, dourado e marrom, dominam o cenário, criando uma sensação de aridez e vastidão.  
+
+Os elementos visuais principais, como o traje de destilação de Paul Atreides e o verme de areia, foram destacados com tons mais escuros, como preto e cinza, para contrastar com o fundo amarelado do deserto. A tonalidade amarelada aplicada ao campo de visão do jogador ajuda a transmitir a intensidade do sol e o calor característico de Arrakis, aumentando a imersão no mundo do jogo.</p>
+<br>
+
+
 ## Personagens  
 
 ### Protagonista  
