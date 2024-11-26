@@ -4,7 +4,7 @@
 <table>  
   <tr>  
     <td>  
-      <p>Projeto realizado por Guilherme Fonseca da Silva e Guilherme Henrique Lemes de Souza, baseado na cena icônica do filme Duna (1984). A proposta combina elementos cinematográficos com jogabilidade interativa para criar uma experiência imersiva, utilizando referências visuais e músicas do filme original.</p>  
+      <p>Projeto realizado por Guilherme Fonseca da Silva e Guilherme Henrique Lemes de Souza, baseado na cena icônica do filme Duna (1984). A cena combina elementos cinematográficos com uma jogabilidade interativa para criar uma experiência imersiva, utilizando referências visuais e músicas do filme original.</p>  
     </td>  
   </tr>  
 </table>  
@@ -39,6 +39,7 @@
 <table>  
 <thead>  
   <th> 
+    Feito totalmente no software 3d blender pela dupla.
     
 ![Imagem verme de areia](https://github.com/user-attachments/assets/b6168abf-0db9-45df-aae1-7f4c619d765b)
   </th>  
@@ -58,7 +59,8 @@
 </table>  
 <br>  
 
-## Menus  
+## Menus 
+Feitos totalmente pelo site Canva.
 
 ### Menu Principal  
 
@@ -208,7 +210,7 @@ Vídeos de Apresentação básica das mecânicas do jogo.
  
  [Pedras usadas de obstáculo](https://assetstore.unity.com/packages/3d/environments/landscapes/stylized-low-poly-rocks-271334)
 
- [Música do meu principal](https://youtu.be/oauF0jXcAq8?si=goZx5islc5gG6Zvs)
+ [Música do menu principal](https://youtu.be/oauF0jXcAq8?si=goZx5islc5gG6Zvs)
 
  [Música do jogo](https://youtu.be/yE4pPzrkgsM?si=WzNQ7ztFg0gi-7A5)
  
