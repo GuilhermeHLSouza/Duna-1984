@@ -16,7 +16,7 @@
 
 ## Explicação do jogo  
 
-<p>O jogo se inicia com o jogador controlando Paul em cima do verme, desviando de pedras que aparecem no caminho. O jogador vence ao sobreviver por 1 minuto sem colidir com nenhuma pedra, retornando ao menu inicial ao fim do desafio. Caso o verme colida com uma pedra, uma tela de game over é exibida. O jogo possui menus interativos, músicas do filme e uma estética fiel ao universo visual de Duna. </p>  
+<p>O jogo se inicia com o jogador controlando Paul em cima do verme, desviando de pedras que aparecem no caminho. O jogador vence ao sobreviver por 2 minutos sem colidir com nenhuma pedra, retornando ao menu inicial ao fim do desafio. Caso o verme colida com uma pedra, uma tela de game over é exibida. O jogo possui menus interativos, músicas do filme e uma estética fiel ao universo visual de Duna. </p>  
 <br>  
 
 ## Personagens  
@@ -195,7 +195,7 @@ Código que controla o movimento contínuo do verme e a detecção de colisões 
 
 Vídeos de Apresentação básica das mecânicas do jogo.  
 
-https://github.com/user-attachments/assets/478b5a62-651c-4a37-91cd-7cc0da90ff35
+[Duna 1984](https://github.com/user-attachments/assets/478b5a62-651c-4a37-91cd-7cc0da90ff35)
 
 
 <br>  
