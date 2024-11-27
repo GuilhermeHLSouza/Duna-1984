@@ -170,7 +170,8 @@ Scripts que criam um cronômetro e verifica se chegou no final gerando a condiç
 <table>  
 <thead>  
   <th>  
-    imagem  
+    
+ ![image](https://github.com/user-attachments/assets/5ffd7e7d-f472-4c9f-b93f-4beaaf47680f)
   </th>  
 </thead>  
 </table>  
