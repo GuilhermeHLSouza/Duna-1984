@@ -112,25 +112,14 @@ Feitos totalmente pelo site Canva.
  Imagens de todos os scripts comentados e com suas devidas explicações. 
 <br>  
 
-### Menu Principal  
+### Menu Principal e Game over
 
-Scripts que gerenciam os botões e suas funções, como iniciar o jogo, acessar as configurações e sair.  
+Scripts que gerenciam os botões e suas funções, como iniciar o jogo, acessar as configurações, sair e fim do jogo.  
 <table>  
 <thead>  
   <th>  
-    imagem  
-  </th>  
-</thead>  
-</table>  
-<br>  
-
-### Botões do Menu  
-
-Scripts que controlam a interação visual dos botões, como a mudança de cor ao passar o mouse.  
-<table>  
-<thead>  
-  <th>  
-    imagem  
+    
+  ![3042366e-32fe-42d2-905f-7259b65a1774](https://github.com/user-attachments/assets/7485e1be-b273-4a74-a0d4-78f87e82c3d5)
   </th>  
 </thead>  
 </table>  
@@ -142,7 +131,8 @@ Script que ajusta a câmera para acompanhar o movimento do verme no deserto.
 <table>  
 <thead>  
   <th>  
-    imagem  
+    
+   ![9317ab60-0708-4e4f-8480-2de5100ace5a](https://github.com/user-attachments/assets/02607cba-b120-4045-a14a-b9c3326dac89)
   </th>  
 </thead>  
 </table>  
@@ -154,7 +144,8 @@ Configuração do modelo 3D das pedras usadas como obstáculos no jogo.
 <table>  
 <thead>  
   <th>  
-    imagem  
+    
+   ![41aa5153-b010-432e-8285-9653195c361e](https://github.com/user-attachments/assets/d7347bb3-5f5e-4d26-a57b-41a586bc457f)
   </th>  
 </thead>  
 </table>  
@@ -166,19 +157,8 @@ Código que gera as pedras aleatoriamente no caminho do verme.
 <table>  
 <thead>  
   <th>  
-    imagem  
-  </th>  
-</thead>  
-</table>  
-<br>  
-
-### Game Over  
-
-Scripts que exibem a tela de game over e permitem ao jogador reiniciar o jogo.  
-<table>  
-<thead>  
-  <th>  
-    imagem  
+    
+   ![d0d79ac5-5dc2-403e-aefd-8ecc45c69846](https://github.com/user-attachments/assets/61bb86bc-5f1a-4437-a157-752ce0e53fbf)
   </th>  
 </thead>  
 </table>  
@@ -202,7 +182,8 @@ Código que controla o movimento contínuo do verme e a detecção de colisões 
 <table>  
 <thead>  
   <th>  
-    imagem  
+    
+  ![9b52a558-eb2c-4143-9075-1c78acc8e6e3](https://github.com/user-attachments/assets/aac85615-803d-4a7c-bf62-162c8478cbb2)
   </th>  
 </thead>  
 </table>  
