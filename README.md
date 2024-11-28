@@ -105,10 +105,25 @@ Feitos totalmente pelo site Canva.
 
 ## Músicas do jogo  
 
-<p>As músicas utilizadas no jogo foram cuidadosamente escolhidas para refletir a atmosfera de Duna (1984) e proporcionar uma experiência imersiva. No menu principal, a trilha sonora é composta por "Dune (Desert Theme)" e "Main Title", ambas da banda Toto, responsáveis pela trilha sonora original do filme. Essas músicas capturam a grandiosidade e o mistério do universo de Arrakis, conectando o jogador diretamente à estética sonora do filme.</p>  
+<p>As músicas utilizadas no jogo foram escolhidas para refletir a atmosfera de Duna (1984) e proporcionar uma experiência imersiva. No menu principal, a trilha sonora é composta por "Dune (Desert Theme)" e "Main Title", ambas da banda Toto, responsáveis pela trilha sonora original do filme. Essas músicas capturam a grandiosidade e o mistério do universo de Arrakis, conectando o jogador diretamente à estética sonora do filme.</p>  
 
-## Diagrama de classes
-Imagem do diagrama de classes do funcionamento do jogo.
+## Diagramas de classes (antigo e corrigido)
+
+### Antigo
+Imagem do antigo diagrama de classes.
+<br>
+
+<table>
+  <head>
+    <th>
+      Imagem
+    </th>
+  </head>
+</table>
+
+### Corrigido
+
+Imagem do diagrama de classes corrigido.
 <br>
 
 <table>
