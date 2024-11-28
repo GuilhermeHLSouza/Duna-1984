@@ -129,10 +129,31 @@ Imagem do diagrama de classes do funcionamento do jogo.
 Scripts que gerenciam os botões e suas funções, como iniciar o jogo, acessar as configurações, sair e fim do jogo.  
 <table>  
 <thead>  
-  <th>  
+
+```csharp
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class Menu : MonoBehaviour
+{
+    public string nomeCena;
+    //criando o metodo Jogar que será ativo quando o jogador apertar o botão Jogar
+    public void Jogar()
+    {
+        SceneManager.LoadSceneAsync(nomeCena); //chamado uma determinada cena
+    }
     
-  ![3042366e-32fe-42d2-905f-7259b65a1774](https://github.com/user-attachments/assets/7485e1be-b273-4a74-a0d4-78f87e82c3d5)
-  </th>  
+    //criando o metodo Sair que será chamadp quando o jogador apertar o botão sair
+    public void Sair()
+    {
+        Application.Quit(); //saindo do Jogo 
+    }
+}
+
+``` 
 </thead>  
 </table>  
 <br>  
@@ -142,10 +163,41 @@ Scripts que gerenciam os botões e suas funções, como iniciar o jogo, acessar 
 Script que ajusta a câmera para acompanhar o movimento do verme no deserto.  
 <table>  
 <thead>  
-  <th>  
-    
-   ![9317ab60-0708-4e4f-8480-2de5100ace5a](https://github.com/user-attachments/assets/02607cba-b120-4045-a14a-b9c3326dac89)
-  </th>  
+
+```csharp
+  
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Camera : MonoBehaviour
+{
+    public GameObject personagem;
+    public Vector3 posicao;
+    // Start is called before the first frame update
+    void Start()
+    {
+        //colocando a camera na posição do personagem/minhoca
+        posicao.z = personagem.transform.position.z -2.5f ;
+        transform.position = posicao;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //verificando se camera está na posição do personagem
+        if(personagem.transform.position.z != transform.position.z) 
+        {
+            //movendo a minhoca para a posição do personagem
+            posicao = new Vector3(transform.position.x, transform.position.y, personagem.transform.position.z -2.50f);
+            transform.position = posicao ;
+        }
+       
+    }
+}
+
+```  
+   
 </thead>  
 </table>  
 <br>  
@@ -155,10 +207,61 @@ Script que ajusta a câmera para acompanhar o movimento do verme no deserto.
 Configuração do modelo 3D das pedras usadas como obstáculos no jogo.  
 <table>  
 <thead>  
-  <th>  
-    
-   ![41aa5153-b010-432e-8285-9653195c361e](https://github.com/user-attachments/assets/d7347bb3-5f5e-4d26-a57b-41a586bc457f)
-  </th>  
+
+```csharp
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class Pedra : MonoBehaviour
+{
+    public Vector3 mov;
+    public Vector3 tamanho;
+    // Start is called before the first frame update
+    void Start()
+    {
+        //definindo um tamanho para a pedra
+        tamanho = new Vector3(10f, 10f, 10f);
+        transform.localScale = tamanho;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //definindo o valor da velocidade que a pedra vai se mover
+        mov = new Vector3(-0.3f, 0, 0);
+        //chamando o metodo Movimento
+        Movimento(mov);
+    }
+
+    //incluindo o metodo Movimento 
+    void Movimento(Vector3 movimento)
+    {
+        //fazendo o movimento
+        transform.Translate(movimento);
+    }
+
+    //colocando a colisão nas pedras
+    private void OnCollisionEnter(Collision collision)
+    {
+        //verificando em qual objeto está colidindo
+        if (collision.gameObject.tag == "Jogador")
+        {
+            //chamando a cena FimJogo
+            SceneManager.LoadSceneAsync("FimJogo");
+        }
+        if (collision.gameObject.tag == "Final")
+        {
+            //Destruindo o Objeto 
+            Destroy(this.gameObject);
+        }
+    }
+}
+
+```
+ 
 </thead>  
 </table>  
 <br>  
@@ -167,11 +270,65 @@ Configuração do modelo 3D das pedras usadas como obstáculos no jogo.
 
 Código que gera as pedras aleatoriamente no caminho do verme.  
 <table>  
-<thead>  
-  <th>  
+<thead>
+
+  ```csharp
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class GeracaoPedra : MonoBehaviour
+{
+    int random;
+    public Vector3 posicaoInicial;
+    public GameObject[] obstaculos;
+    public float spawnTime, spawnDelay;
+    public float velocidade = 5.0f;     
+    public float velocidadeZigZag;
+    public float limiteSuperior;
+    public float limiteInferior;
+    private int direcaoZ = 1;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        //invocando os objetos repetidamente utilizando o metodo SpawnRandom
+        InvokeRepeating("SpawnAleatorio", spawnTime, spawnDelay);
+        //colocando o objeto na posição certa
+        transform.position = posicaoInicial;
+    }
     
-   ![d0d79ac5-5dc2-403e-aefd-8ecc45c69846](https://github.com/user-attachments/assets/61bb86bc-5f1a-4437-a157-752ce0e53fbf)
-  </th>  
+    void SpawnAleatorio()
+    {
+        //pega um numero aleatorio de 0 até a quandidade de obstaculos que foi colocado na variavel obstaculos
+        random = Random.Range(0, obstaculos.Length);
+        //coloca um dos objetos presentes na variavel na cena aleatoriamente a partir da variavel random  
+        Instantiate(obstaculos[random], transform.position, transform.rotation);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //define qual a direção o objeto vai estar indo
+        Vector3 movimentoZigZag = Vector3.forward * direcaoZ * velocidadeZigZag * Time.deltaTime;
+        transform.Translate(movimentoZigZag);
+
+        //verificando se atingiu os limites colocados
+        if (transform.position.z >= limiteSuperior)
+        {
+            direcaoZ = -1;
+        }
+        else if (transform.position.z <= limiteInferior)
+        {
+            direcaoZ = 1; 
+        }
+    }
+}
+
+```
+
 </thead>  
 </table>  
 <br>  
@@ -181,10 +338,40 @@ Código que gera as pedras aleatoriamente no caminho do verme.
 Scripts que criam um cronômetro e verifica se chegou no final gerando a condição de vitória.  
 <table>  
 <thead>  
-  <th>  
-    
- ![image](https://github.com/user-attachments/assets/5ffd7e7d-f472-4c9f-b93f-4beaaf47680f)
-  </th>  
+  
+```csharp
+  
+using System.Collections;
+using System.Collections.Generic;
+using System.Timers;
+using UnityEngine.SceneManagement;
+using UnityEngine;
+using TMPro;
+
+public class Tempo : MonoBehaviour
+{
+    public TextMeshProUGUI textTempo;
+    public float tempo;
+    private int minutos;
+    private int segundos;
+
+    // Update is called once per frame
+    void Update()
+    {
+        tempo -= Time.deltaTime;
+        if (tempo < 0)
+        {
+            SceneManager.LoadSceneAsync("Menu");
+            tempo = 0;
+        }
+        minutos = Mathf.FloorToInt(tempo / 60);
+        segundos = Mathf.FloorToInt(tempo % 60);
+        textTempo.text = string.Format("{0:00}:{1:00}", minutos, segundos );
+    }
+}
+
+```
+
 </thead>  
 </table>  
 <br>  
@@ -194,10 +381,70 @@ Scripts que criam um cronômetro e verifica se chegou no final gerando a condiç
 Código que controla o movimento contínuo do verme e a detecção de colisões com obstáculos.  
 <table>  
 <thead>  
-  <th>  
-    
-  ![9b52a558-eb2c-4143-9075-1c78acc8e6e3](https://github.com/user-attachments/assets/aac85615-803d-4a7c-bf62-162c8478cbb2)
-  </th>  
+  
+```csharp
+  
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UIElements;
+
+public class Personagem : MonoBehaviour
+{
+    public Vector3 mov;
+    private Animator anim;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        //colocando a posição inicial do personagem/minhoca
+        transform.position = mov;
+        //puxando o componente Animator do personagem/minhoca
+        anim = GetComponent<Animator>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //chamando o metodo Movimento
+        Movimento();
+    }
+
+    //criando o metodo Movimento
+    void Movimento()
+    {
+        //verificando se a tecla A foi clicada e se não passou do limite do mapa 
+        if(Input.GetKey(KeyCode.A) && transform.position.z < 186.15)
+        {
+            mov = new Vector3 (10f * Time.deltaTime, 0f, 0f);
+            transform.Translate(mov);
+            anim.SetBool("Esquerda", true);
+        }
+
+        //verificando se a tecla A não está ativa 
+        else if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.LeftArrow))
+        {   
+            anim.SetBool("Esquerda", false);
+        }
+         
+        //verificando se a tecla D foi clicada e se não passou do limite do mapa 
+        if (Input.GetKey(KeyCode.D) && transform.position.z > 162.68)
+        {
+            mov = new Vector3(-10f * Time.deltaTime, 0f, 0);
+            transform.Translate(mov);
+            anim.SetBool("Direita", true);
+        }
+        
+        //verificando se a tecla D não está ativa 
+        else if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow))
+        {
+            anim.SetBool("Direita", false);
+        }
+    }
+}
+
+```
+
 </thead>  
 </table>  
 <br>  
