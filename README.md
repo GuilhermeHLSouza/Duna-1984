@@ -466,7 +466,7 @@ public class Personagem : MonoBehaviour
 
 ## Vídeo  
 
-Vídeos de Apresentação básica das mecânicas do jogo.  
+Vídeo de apresentação básica das mecânicas do jogo.  
 
 [Duna 1984](https://github.com/user-attachments/assets/478b5a62-651c-4a37-91cd-7cc0da90ff35)
 
