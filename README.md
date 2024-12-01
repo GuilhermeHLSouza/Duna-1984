@@ -10,7 +10,7 @@
 </table>  
 <br> 
 
-### Descrição da Obra Original  
+## Descrição da Obra Original  
 <p>
   Duna (1984), dirigido por David Lynch, é uma adaptação cinematográfica do clássico romance de ficção científica de Frank Herbert. A história é ambientada no deserto de Arrakis, um planeta essencial por sua produção da "Especiaria Melange", um recurso valioso que garante poder e longevidade. A trama acompanha Paul Atreides, herdeiro da Casa Atreides, enquanto ele enfrenta intrigas políticas, traições e uma jornada de autodescoberta.  
 
