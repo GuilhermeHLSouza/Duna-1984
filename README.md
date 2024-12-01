@@ -479,7 +479,7 @@ Ambos mantiveram uma comunicação constante, garantindo que cada um estivesse c
 
 ## Vídeo  
 
-Vídeo de apresentação básica das mecânicas do jogo.  
+Vídeo de apresentação básica das mecânicas do jogo (clique na imagem abaixo para abrir o vídeo em outra aba do navegador).  
 
 [![videojogo](https://github.com/user-attachments/assets/9d4648fd-f5a6-46e5-b9bd-0d73237dce44)](https://github.com/user-attachments/assets/5c0ad74c-69f0-4dcf-8954-057bd50c6fdd)
 
