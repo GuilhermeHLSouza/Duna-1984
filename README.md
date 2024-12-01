@@ -8,7 +8,13 @@
     </td>  
   </tr>  
 </table>  
-<br>
+<br> 
+
+### Descrição da Obra Original  
+<p>
+ Duna (1984), dirigido por David Lynch, é uma adaptação cinematográfica do clássico romance de ficção científica de Frank Herbert. A história é ambientada no deserto de Arrakis, um planeta essencial por sua produção da "Especiaria Melange", um recurso valioso que garante poder e longevidade. A trama acompanha Paul Atreides, herdeiro da Casa Atreides, enquanto ele enfrenta intrigas políticas, traições e uma jornada de autodescoberta. </p>  
+
+O filme é conhecido por sua estética surreal e única, com uma direção de arte detalhada que captura o misticismo e a vastidão do universo de Duna. Apesar de controverso na época de seu lançamento, a obra se tornou um marco visual e temático, explorando temas como poder, ecologia e destino. 
 
 ## Explicação da cena original do filme
 <p>
@@ -463,6 +469,13 @@ public class Personagem : MonoBehaviour
 </thead>  
 </table>  
 <br>  
+
+### Organização e Execução  
+
+<p>
+O projeto foi desenvolvido por Guilherme Fonseca e Guilherme Henrique, com uma divisão clara de tarefas. Guilherme Fonseca se concentrou na parte visual e teórica, trabalhando nas artes, modelos 3D e no desenvolvimento da documentação. Já Guilherme Henrique focou na programação, sendo responsável pela implementação técnica das mecânicas do jogo.  
+
+Ambos mantiveram uma comunicação constante, garantindo que cada um estivesse ciente de como tudo estava funcionando, tanto na parte teórica quanto na programação. Essa abordagem ajudou a alinhar o trabalho e evitar problemas de integração. </p>
 
 ## Vídeo  
 
