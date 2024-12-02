@@ -122,7 +122,8 @@ Imagem do antigo diagrama de classes.
 <table>
   <head>
     <th>
-      Imagem
+      
+  ![931b5ad6-3b96-4cdc-8271-ef4c5d4b07b1](https://github.com/user-attachments/assets/bbd3fe3b-97ea-4cf3-b726-5a4cd2557be3)
     </th>
   </head>
 </table>
@@ -135,10 +136,31 @@ Imagem do diagrama de classes corrigido.
 <table>
   <head>
     <th>
-      Imagem
+      
+  ![4b5abfba-f3a0-4e73-ab96-85eb118b970b](https://github.com/user-attachments/assets/acc780a3-e3da-495a-a25a-aa33c7fc05b9)
+
     </th>
   </head>
 </table>
+
+## Descrição técnica do jogo
+
+ Criamos uma cena na unity utilizando assets pegos na internet e alguns feitos por nós mesmo no Blender. O cenário foi criado com prefabs para facilitar a criação de várias repetições do mesmo. Também temos um menu para iniciar a cena ou fechar fechar o jogo, 
+Foi criado scripts para o personagem, para  a câmera, para as pedras, para o gerador de pedras, para o menu e para o timer.
+
+scripts: 
+
+Personagem: Utiliza uma variável do tipo Vector3 onde o valor será informado na unity para  setar a posição inicial do personagem, a partir disso o método Movimento cria o movimento do personagem utilizando condicionais para verificar as teclas A e D;
+
+Câmera: Acompanha o personagem por meio de uma variável do tipo GameObject, onde vai pegar  o posição z do personagem e verifica se é a mesma, caso não seja ele leva a câmera para a mesma posição do eixo z pega pela variável;
+
+Pedras: As pedras segue pelo eixo x em direção ao personagem em uma velocidade determinada pela variável “mov”, utilizamos o OnCollisionEnter para verificar um colisão com o personagem por meio da tag “Jogador”;
+
+GeradorPedra: Gera pedras aleatórias, enquanto se movimenta em zig zag; 
+
+Menu: Dois métodos foram criados para administrar os botões do menu sendo eles “Jogar” e “Sair”.  
+
+Tempo: Gerencia o tempo colocado na  da tela quando o tempo chega a zero ele leva para o Menu.
 
 ## Códigos do jogo  
 
@@ -470,7 +492,7 @@ public class Personagem : MonoBehaviour
 </table>  
 <br>  
 
-### Organização e Execução  
+## Organização e execução  
 
 <p>
 O projeto foi desenvolvido por Guilherme Fonseca e Guilherme Henrique, com uma divisão clara de tarefas. Guilherme Fonseca se concentrou na parte visual e teórica, trabalhando nas artes, modelos 3D e no desenvolvimento da documentação. Já Guilherme Henrique focou na programação, sendo responsável pela implementação técnica das mecânicas do jogo.  
