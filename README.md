@@ -153,7 +153,7 @@ Personagem: Utiliza uma variável do tipo Vector3 onde o valor será informado n
 
 Câmera: Acompanha o personagem por meio de uma variável do tipo GameObject, onde vai pegar  o posição z do personagem e verifica se é a mesma, caso não seja ele leva a câmera para a mesma posição do eixo z pega pela variável;
 
-Pedras: As pedras segue pelo eixo x em direção ao personagem em uma velocidade determinada pela variável “mov”, utilizamos o OnCollisionEnter para verificar um colisão com o personagem por meio da tag “Jogador”;
+Pedras: As pedras seguem pelo eixo x em direção ao personagem em uma velocidade determinada pela variável “mov”, utilizamos o OnCollisionEnter para verificar um colisão com o personagem por meio da tag “Jogador”;
 
 GeradorPedra: Gera pedras aleatórias, enquanto se movimenta em zig zag; 
 
