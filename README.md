@@ -138,7 +138,6 @@ Imagem do diagrama de classes corrigido.
     <th>
       
   ![4b5abfba-f3a0-4e73-ab96-85eb118b970b](https://github.com/user-attachments/assets/acc780a3-e3da-495a-a25a-aa33c7fc05b9)
-
     </th>
   </head>
 </table>
