@@ -17,13 +17,19 @@ public class Camera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //verificando se camera está na posição do personagem
-        if(personagem.transform.position.z != transform.position.z) 
-        {
-            //movendo a minhoca para a posição do personagem
-            posicao = new Vector3(transform.position.x, transform.position.y, personagem.transform.position.z -2.50f);
-            transform.position = posicao ;
-        }
+        Movimento();
        
     }
+
+    void Movimento()
+    {
+        //verificando se camera está na posição do personagem
+        if (personagem.transform.position.z != transform.position.z)
+        {
+            //movendo a minhoca para a posição do personagem
+            posicao = new Vector3(transform.position.x, transform.position.y, personagem.transform.position.z - 2.50f);
+            transform.position = posicao;
+        }
+    }
 }
+

@@ -8,11 +8,8 @@ public class GeracaoPedra : MonoBehaviour
     int random;
     public Vector3 posicaoInicial;
     public GameObject[] obstaculos;
-    public float spawnTime, spawnDelay;
+    public float spawnTime, spawnDelay, limiteInferior, limiteSuperior, velocidadeZigZag;
     public float velocidade = 5.0f;     
-    public float velocidadeZigZag;
-    public float limiteSuperior;
-    public float limiteInferior;
     private int direcaoZ = 1;
 
     // Start is called before the first frame update
@@ -35,6 +32,11 @@ public class GeracaoPedra : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Movimento();
+    }
+
+    private void Movimento()
+    {
         //define qual a direção o objeto vai estar indo
         Vector3 movimentoZigZag = Vector3.forward * direcaoZ * velocidadeZigZag * Time.deltaTime;
         transform.Translate(movimentoZigZag);
@@ -46,7 +48,7 @@ public class GeracaoPedra : MonoBehaviour
         }
         else if (transform.position.z <= limiteInferior)
         {
-            direcaoZ = 1; 
+            direcaoZ = 1;
         }
     }
 }

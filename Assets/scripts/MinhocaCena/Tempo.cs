@@ -15,6 +15,11 @@ public class Tempo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Cronometro();
+    }
+
+    void Cronometro()
+    {
         tempo -= Time.deltaTime;
         if (tempo < 0)
         {
@@ -23,6 +28,6 @@ public class Tempo : MonoBehaviour
         }
         minutos = Mathf.FloorToInt(tempo / 60);
         segundos = Mathf.FloorToInt(tempo % 60);
-        textTempo.text = string.Format("{0:00}:{1:00}", minutos, segundos );
+        textTempo.text = string.Format("{0:00}:{1:00}", minutos, segundos);
     }
 }
